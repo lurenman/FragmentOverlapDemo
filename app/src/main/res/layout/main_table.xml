@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main_tab_group"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <RadioButton
+        android:id="@+id/rb_one"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:button="@null"
+        android:checked="false"
+        android:gravity="center"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp"
+        android:text="Tab1"
+        android:textColor="@drawable/rb_text"
+        android:textSize="14dp" />
+
+    <RadioButton
+        android:id="@+id/rb_two"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:button="@null"
+        android:checked="false"
+        android:gravity="center"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp"
+        android:text="Tab2"
+        android:textColor="@drawable/rb_text"
+        android:textSize="14dp" />
+
+
+    <RadioButton
+        android:id="@+id/rb_three"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:button="@null"
+        android:checked="false"
+        android:gravity="center"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp"
+        android:text="Tab3"
+        android:textColor="@drawable/rb_text"
+        android:textSize="14dp" />
+
+</RadioGroup>
